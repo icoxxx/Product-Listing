@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id="header">
+                   <div id="hamContainer" onclick="myFunction(this)">
+                       <div class="bar1"></div>
+                       <div class="bar2"></div>
+                       <div class="bar3"></div>
+                     </div>
+                     <div id="logo">
+                        <a href="index.html">
+                            <img src="images/bucherer-logo-big.svg" alt="">
+                        </a>
+                     </div>
+               
+                   <ul class="menu__box">
+                     <li><a class="menu__item" href="index.html">Home</a></li>
+                           <li><a class="menu__item" href="index.html">About</a></li>
+                           <li><a class="menu__item" href="#">Team</a></li>
+                           <li><a class="menu__item" href="#">Contact</a></li>
+                           <li><a class="menu__item" href="#">Twitter</a></li>
+                           <li><img class="menu__img" src="images/logo_rolex.svg" alt=""></li>
+                   </ul>
+
+                   <div id="userProducts">
+                       0 items <span class="userProductsCart"><i class="fa fa-shopping-cart"></i></span>
+                   </div>
+            </div>
+         </nav>
+    </header>
+
+    <main>
+        <div class="categoryContainer">
+            <span onclick="changeStatus('All Products'), resetSort()" class="category" id="all-products">ALL PRODUCTS</span>
+            <span onclick="changeStatus('Watches'), resetSort()" class="category" id="watches">WATCHES</span>
+            <span onclick="changeStatus('Jewellery'), resetSort()" class="category" id="jewellery">JEWELLERY</span>
+         </div>
+
+         <nav>
+            <div id="sort-container"> 
+                <div class="dropdown">
+                    <button onclick="filterDrop('.dropdown-content')" class="dropbtn">Sort: 
+                         <span><i id="arrowSort" class="arrow down"></i></span>    
+                    </button>
+                  <div class="dropdown-content">
+                    <div class="sort" onclick="changeStatus('a-z'), hideSort()" >A - Z</div>
+                    <div class="sort" onclick="changeStatus('z-a'), hideSort()" >Z - A</div>
+                    <div class="sort" onclick="changeStatus('ascending'), hideSort()" >Price Ascending</div>
+                    <div class="sort" onclick="changeStatus('descending'), hideSort()" >Price Descending</div>
+                  </div>
+            </div>
+         </nav>
+
+
+         <section >
+            <div id="items-container">
+                <div class="counter">
+                    <h3 id="count-items">4 items out of 50</h3>
+                </div>
+            
+
+                <div class="load-more-container">
+                    <button id="load-more">LOAD MORE</button>
+                </div>
+            </div>
+         </section>
+    </main>
+
+    <section>
+        <div id="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <strong>Success!</strong> Product added to cart!
+         </div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/bucherer/" target="_blank" class="facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="terms">
+            <a href="">Terms of use</a>
+        </div>
+
+        <div class="faq">
+            <a href="">FAQ</a>
+        </div>
+
+        <div>
+            <a href="https://www.instagram.com/bucherer/" target="_blank" class="instagram">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

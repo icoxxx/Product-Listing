@@ -1,0 +1,204 @@
+{
+    "rolex": [
+       {
+          "brand":"ROLEX",
+          "model":"1908",
+          "colour":"brown",
+          "price":2200,
+          "imgUrl":"images/rolex-watches/1908-brown.webp"
+       },
+       {
+          "brand":"ROLEX",
+          "model":"COSMOGRAPH",
+          "colour":"silver",
+          "price":3500,
+          "discount":3399,
+          "imgUrl":"images/rolex-watches/cosmograph-daytona-silver.webp"
+       },
+       {
+          "brand":"ROLEX",
+          "model":"DATEJUST",
+          "colour":"silver",
+          "price":3000,
+          "imgUrl":"images/rolex-watches/datejust-silver.webp"
+       },
+       {
+          "brand":"ROLEX",
+          "model":"DAY DATE",
+          "colour":"silver",
+          "price":3100,
+          "discount":2999,
+          "imgUrl":"images/rolex-watches/day-date-silver.webp"
+       },
+       {
+          "brand":"ROLEX",
+          "model":"LADY DATE",
+          "colour":"pink",
+          "price":4500,
+          "imgUrl":"images/rolex-watches/lady-datejust-pink.webp"
+       },
+       {
+          "brand":"ROLEX",
+          "model":"OYSTER",
+          "colour":"silver",
+          "price":2700,
+          "discount":2600,
+          "imgUrl":"images/rolex-watches/oyster-silver.webp"
+       },
+       {
+          "brand":"ROLEX",
+          "model":"DWELLER",
+          "colour":"black",
+          "price":5555,
+          "imgUrl":"images/rolex-watches/sky-dweller-black.webp"
+       },
+       {
+          "brand":"ROLEX",
+          "model":"SUBMARINER",
+          "colour":"silver",
+          "price":7789,
+          "imgUrl":"images/rolex-watches/submariner-silver.webp"
+       },
+       {
+          "brand":"ROLEX",
+          "model":"YACHT-MASTER",
+          "colour":"silver",
+          "price":6999,
+          "imgUrl":"images/rolex-watches/yacht-master-silver.webp"
+       }
+    ],
+    "heuer": [
+       {
+          "brand":"HEUER",
+          "model":"AQUARACER",
+          "colour":"silver",
+          "price":2399,
+          "imgUrl":"images/tag-heuer-watches/aquaracer-silver.webp"
+       },
+       {
+          "brand":"HEUER",
+          "model":"CARRERA",
+          "colour":"black",
+          "price":4899,
+          "discount":4799,
+          "imgUrl":"images/tag-heuer-watches/carrera-black.webp"
+       },
+       {
+          "brand":"HEUER",
+          "model":"CARRERA-PORSCHE",
+          "colour":"silver",
+          "price":5999,
+          "imgUrl":"images/tag-heuer-watches/carrera-porsche-silver.webp"
+       },
+       {
+          "brand":"HEUER",
+          "model":"CARRERA 2",
+          "colour":"silver",
+          "price":4399,
+          "imgUrl":"images/tag-heuer-watches/carrera-silver.webp"
+       },
+       {
+          "brand":"HEUER",
+          "model":"FORMULA 1",
+          "colour":"silver",
+          "price":1599,
+          "imgUrl":"images/tag-heuer-watches/formula-1-silver.webp"
+       },
+       {
+          "brand":"HEUER",
+          "model":"MONACO BLACK",
+          "colour":"black",
+          "price":2399,
+          "imgUrl":"images/tag-heuer-watches/monaco-black.webp"
+       },
+       {
+          "brand":"HEUER",
+          "model":"MONACO BLUE",
+          "colour":"blue",
+          "price":2999,
+          "discount":2888,
+          "imgUrl":"images/tag-heuer-watches/monaco-blue.webp"
+       },
+       {
+          "brand":"HEUER",
+          "model":"FORMULA BLACK",
+          "colour":"black",
+          "price":1699,
+          "imgUrl":"images/tag-heuer-watches/new-formula-black.webp"
+       },
+       {
+          "brand":"HEUER",
+          "model":"FORMULA BLUE",
+          "colour":"blue",
+          "price":1799,
+          "imgUrl":"images/tag-heuer-watches/new-formula-blue.webp"
+       }
+    ],
+    "jewellery": [
+       {
+          "brand":"BUCHERER",
+          "model":"B-DIMENSION",
+          "colour":"multicolor",
+          "price":9999,
+          "imgUrl":"images/jewellery/bucherer-b-dimension-multicolor.webp"
+       },
+       {
+          "brand":"BUCHERER",
+          "model":"PASTELLO",
+          "colour":"multicolor",
+          "price":5699,
+          "imgUrl":"images/jewellery/bucherer-pastello-multicolor.webp"
+       },
+       {
+          "brand":"BUCHERER",
+          "model":"PASTELLO 2",
+          "colour":"multicolor",
+          "price":5099,
+          "imgUrl":"images/jewellery/bucherer-pastello2-multicolor.webp"
+       },
+       {
+          "brand":"BUCHERER",
+          "model":"PASTELLO 3",
+          "colour":"multicolor",
+          "price":4699,
+          "imgUrl":"images/jewellery/bucherer-pastello3-multicolor.webp"
+       },
+       {
+          "brand":"BUCHERER",
+          "model":"ROCK GOLD",
+          "colour":"gold",
+          "price":9499,
+          "discount":8999,
+          "imgUrl":"images/jewellery/bucherer-rock-diamonds-gold.webp"
+       },
+       {
+          "brand":"BUCHERER",
+          "model":"ROCK SILVER",
+          "colour":"silver",
+          "price":3899,
+          "imgUrl":"images/jewellery/bucherer-rock-diamonds-silver.webp"
+       },
+       {
+          "brand":"BUCHERER",
+          "model":"DIAMONDS 1",
+          "colour":"gold",
+          "price":9999,
+          "imgUrl":"images/jewellery/bucherer-rock-diamonds2-gold.webp"
+       },
+       {
+          "brand":"BUCHERER",
+          "model":"DIAMONDS 2",
+          "colour":"silver",
+          "price":8888,
+          "discount":8333,
+          "imgUrl":"images/jewellery/bucherer-rock-diamonds3-silver.webp"
+       },
+       {
+          "brand":"MESSIKA",
+          "model":"MY TWIN",
+          "colour":"silver",
+          "price":1099,
+          "imgUrl":"images/jewellery/messika-my-twin-silver.webp"
+       }
+    ]
+}

@@ -417,16 +417,13 @@ async function main(){
         const batchEnd = Math.min(batchStart + itemsPerClick, array.length)
 
         for(let i = batchStart; i < batchEnd; i++ ){
-            /*(if(array[i] === undefined){
-                //loadMoreButton.disabled = true;
-                break;
-            } */
+
             if(isSortClicked){
                 if(indexForSort > 3){
                     indexForSort = 0;
                 }
                 let sorted = array.slice(batchStart, batchEnd);
-                //sorted.reverse();
+                
                 console.log(sorted[indexForSort])
                 createItem(sorted, indexForSort);
                 indexForSort++;
